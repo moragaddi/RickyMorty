@@ -7,6 +7,10 @@
 
 font-family: 'Creepster', cursive;
 
+.header {background: url(nave-espacial-47272.mp4)}
+
+.header .navbar {background-color: transparent !important;
+                }
 body {
     font-family: 'Nulshock-Bold', sans-serif;
 }
@@ -109,6 +113,34 @@ video{  min-width: 100%;
      transform: translateX(0) scale(1);
      z-index: 1;
  }
+
+#caja_formulario  {     color: green;
+                        text-align: center;
+                        font-size: 15px;
+                        margin-bottom: 35px;}
+
+#caja_formulario boton {color:  #00B3CB}
+
+
+.redes {text-align: center;martin-bottom: 100px}
+
+h3 {margin-top: 50px}
+
+h4 {    color: #A7C564;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 40px;}
+
+
+#caja_formulario  {     color: #A7C564;
+                        text-align: center;
+                        font-size: 15px;
+                        margin-bottom: 35px;}
+                
+#caja_formulario:hover {background: #00B3CB;}
+
+.redes {text-align: center;martin-bottom: 100px}
+
 
 @media (max-width: 720px) { .logo img {  width: 60%;
                                         height: 60%;
